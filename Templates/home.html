@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+{% block content %}
+<br>
+  <br>
+<div id="main">
+  
+<center>
+ <table style="margin-left: auto;margin-right: auto;">
+   <tr>
+     <td>
+       <img  src="./static/img/facebook.PNG" width=180 />
+
+     </td>
+     <td>
+
+     </td>
+   </tr>
+ <tr>
+   <td style="width: 700px;margin:0;">
+     <p style="font-size: 30px;margin:0" >Recent Logins</p>
+       <p style="font-size: 15px;color:grey;margin:0" >Click your picture or add an account </p>
+       <br>
+       <div style="width: 100%;">
+         
+         <div  v-bind:class="(active===1)?'cardShad':'card'" style="width:160px;border-radius: 15px;float:left">
+           <img class="card-img-top" @mouseover="mouseOver" @mouseout="mouseOut"src="./static/img/profile.PNG" style="border-top-left-radius: 10px;border-top-right-radius: 10px;" alt="Card image" >
+           <div class="card" style="height:45px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;">
+             <p style="font-family: Arial;text-align: center;padding-top: 5px;font-size: 18px;">Andrés</p>
+           </div>
+         </div>
+
+         <div v-bind:class="(active2===1)?'cardShad':'card'" style="width:160px;border-radius: 15px;float:left;margin-left: 20px; ">
+           
+           <img class="card-img-top"  @mouseover="mouseOver2" @mouseout="mouseOut2" src="./static/img/none.PNG" style="border-top-left-radius: 10px;border-top-right-radius: 10px;height:155px;" alt="Card image" >
+           <button class="btn"></button>
+           <div class="card" style="height:45px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;">
+             <p style="font-family: Arial;text-align: center;padding-top: 5px;font-size: 18px;color:#1976F2">Add Account</p>
+           </div>
+         </div>
+         
+         <!-- <div style="width:150px;float:left;margin-left: 20px; height: 180px;background-color: blue;">
+
+         </div> -->
+       </div>
+
+   </td>
+   <td style="padding-left: 250px;">
+     <br>
+     <br>
+     <div class="container" >
+
+       <form>
+         <div class="form-group">
+           <br>
+           <input style="height:50px;" v-model="user" type="text" class="form-control"  placeholder="Enter username" required>
+     
+         </div>
+         <div class="form-group">
+       
+           <input type="password" style="height:50px;" v-model="password" class="form-control"  placeholder="Enter password"  required>
+          
+         </div>
+         
+         
+         <button type="submit" @click="logIn()" style="width:100%;height:50px;font-size: 20px;font-weight: bold;" class="btn btn-primary">Log In</button>
+         <br>
+         <br>
+         <center>
+           <a  href="">Forgot Password?</a>
+           <hr style="width:100%;height:2px;text-align:left;margin-left:0;color:#202020">
+           <button type="submit" style="width:50%;border-color:#42B72A; height:50px;font-size: 16px;font-weight:bold; background-color: #42B72A;" class="btn btn-primary">Create New Account</button>
+     
+         </center>
+         
+     
+       </form>
+       <center>
+         <br>
+         <br>
+         <p><strong>Create a Page</strong> for a celebrity, band or business.</p>
+
+       </center>
+
+      
+     </div>
+    
+   </td>
+ </tr>
+</table>
+</center>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="../static/Javascript/logic.js"></script>
+ 
+{% endblock content %}

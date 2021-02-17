@@ -1,0 +1,66 @@
+.container{
+    text-align: left;
+    width: 400px;
+    height: 360px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-3%, -50%);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+body{
+    background-color:#F0F2F5;
+}
+.card .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    border-radius: 50%;
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    background-image: url(../static/img/but.PNG);
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 47px;
+    background-color: #1976F2;
+    background-size: 24px 24px;
+    background-position: 13px 10px;
+    text-align: center;
+}
+
+.cardShad{
+  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.cardShad .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    border-radius: 50%;
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    background-image: url(../static/img/but.PNG);
+    background-repeat: no-repeat;
+    width: 39px;
+    height: 47px;
+    background-color: #1976F2;
+    background-size: 24px 24px;
+    background-position: 13px 10px;
+}
