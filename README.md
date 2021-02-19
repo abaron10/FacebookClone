@@ -96,7 +96,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - (https://www.linkedin.com/in/andres-baron-sandoval-76ab96186/) - af.baron10@uniandes.edu.co
+https://www.linkedin.com/in/andres-baron-sandoval-76ab96186/ - af.baron10@uniandes.edu.co
 
 Project Link: [https://github.com/abaron10/FacebookClone](https://github.com/abaron10/FacebookClone)
 
