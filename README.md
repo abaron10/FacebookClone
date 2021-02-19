@@ -6,7 +6,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="static/img/facebook.PNG" alt="Logo" width="200" height="640">
+    <img src="static/img/facebook.PNG" alt="Logo" width="200" height="40">
   </a>
 
   <h3 align="center">Facebook Login clone</h3>
