@@ -1,8 +1,5 @@
 
 
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -66,44 +63,21 @@ This section should list any major frameworks that you built your project using.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pipenv
   ```sh
-  npm install npm@latest -g
+  pip install pipenv
   ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/abaron10/FacebookClone.git
    ```
-3. Install NPM packages
+3. Install PIPENV packages
    ```sh
-   npm install
+   pipenv install
    ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -111,19 +85,15 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch 
+3. Commit your Changes 
+4. Push to the Branch 
 5. Open a Pull Request
-
-
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -141,12 +111,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
 * [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
 
 
 
