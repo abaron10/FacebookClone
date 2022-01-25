@@ -43,7 +43,7 @@
 ![image](https://user-images.githubusercontent.com/64280930/108508911-88bbe280-728a-11eb-9761-cb21efbbb3c6.png)
 
 
-Clone of the facebook login to register the login user and password. The design was developed for the current facebook version for the date 02/19/2021
+Clone of facebook login page. The design was developed with the current facebook version for the date 02/19/2021
 
 ### Built With
 
